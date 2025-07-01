@@ -38,11 +38,13 @@ footer {
   border-top: 1px solid #000;
 }
 
-#presentation {
+#avantages,
+#cas-usage,
+p {
   width: 100%;
   max-width: 800px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -55,7 +57,25 @@ footer {
   font-size: medium;
 }
 
-#presentation h1 {
+#presentation {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  color: rgb(61, 60, 60);
+  line-height: 1.6;
+  font-size: medium;
+}
+
+#presentation h1,
+h2,
+h3 {
   color: blue;
   font-size: large;
   margin-bottom: 20px;
@@ -66,12 +86,23 @@ footer {
   margin-bottom: 15px;
 }
 
-#images {
-  display: inline-block;
-	width: 100px;
-	margin-right: 20px;
-	vertical-align: top;
-	text-align: right;
+img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  border-radius: 12px;
+}
+
+#lolita {
+  object-position: 30% 30%;
+}
+
+#avantages-cas-usage {
+  display: flex;
+  gap: 20px;
+  text-align: left;
 }
 
 section {
@@ -80,7 +111,7 @@ section {
   max-width: 800px;
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 section:hover {
@@ -90,25 +121,3 @@ section:hover {
 footer {
   font-size: 0.9em;
 }
-
-.team-card {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.member {
-  background: #f9f9f9;
-  border-radius: 10px;
-  padding: 15px;
-  width: 180px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.member:hover {
-  background: #eef1f5;
-  transform: translateY(-5px);
