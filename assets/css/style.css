@@ -1,9 +1,75 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-text-color: rgba(10, 10, 10, 0.8);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 10vw;
+  border-bottom: 1px solid #000;
+  svg {
+    width: 20%;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    a {
+      text-decoration: none;
+      color: var(--primary-text-color);
+      text-transform: uppercase;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-top: 1px solid #000;
+}
+
+#presentation {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: aliceblue;
+
+  color: rgb(61, 60, 60);
+  line-height: 1.6;
+  font-size: medium;
+}
+
+#presentation h1 {
+  color: blue;
+  font-size: large;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#presentation p {
+  margin-bottom: 15px;
+}
+
 #images {
-   display: inline-block;
+  display: inline-block;
 	width: 100px;
 	margin-right: 20px;
 	vertical-align: top;
 	text-align: right;
-    
-   
 }
