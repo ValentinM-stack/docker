@@ -73,3 +73,42 @@ footer {
 	vertical-align: top;
 	text-align: right;
 }
+
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+section:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+.team-card {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.member:hover {
+  background: #eef1f5;
+  transform: translateY(-5px);
