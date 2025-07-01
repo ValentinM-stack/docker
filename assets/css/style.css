@@ -1,0 +1,123 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-text-color: rgba(10, 10, 10, 0.8);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 10vw;
+  border-bottom: 1px solid #000;
+  svg {
+    width: 20%;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    a {
+      text-decoration: none;
+      color: var(--primary-text-color);
+      text-transform: uppercase;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-top: 1px solid #000;
+}
+
+#avantages,
+#cas-usage,
+p {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: aliceblue;
+
+  color: rgb(61, 60, 60);
+  line-height: 1.6;
+  font-size: medium;
+}
+
+#presentation {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  color: rgb(61, 60, 60);
+  line-height: 1.6;
+  font-size: medium;
+}
+
+#presentation h1,
+h2,
+h3 {
+  color: blue;
+  font-size: large;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#presentation p {
+  margin-bottom: 15px;
+}
+
+img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  border-radius: 12px;
+}
+
+#lolita {
+  object-position: 30% 30%;
+}
+
+#avantages-cas-usage {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+section:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  font-size: 0.9em;
+}
