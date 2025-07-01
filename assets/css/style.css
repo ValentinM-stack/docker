@@ -37,3 +37,28 @@ footer {
   height: 10vh;
   border-top: 1px solid #000;
 }
+
+#presentation {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: aliceblue;
+
+    color: rgb(61, 60, 60);
+    line-height: 1.6;
+    font-size: medium;
+    }
+
+#presentation h1 {
+    color: blue;
+    font-size: large;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#presentation p {
+    margin-bottom: 15px;
+}
