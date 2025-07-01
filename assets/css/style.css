@@ -1,0 +1,77 @@
+body {
+font-family:  sans-serif;
+margin: 0%;
+padding: 0;
+background-color: rgb(255, 240, 251);
+}
+header, footer {
+    background-color: #222;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 8px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f2f2f2, #b0aeae);
+  color: rgb(2, 2, 66)
+  ;
+}
+header, footer {
+  background-color: #1e2a3c;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+h1, h2 {
+  margin: 0 0 15px;
+}
+section {
+  padding: 30px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+section:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  font-size: 0.9em;
+}
+/* carde personnel */
+.team-card {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.member:hover {
+  background: #eef1f5;
+  transform: translateY(-5px);
+}
